@@ -1,0 +1,53 @@
+/* This is an Universal Selector*/
+* {
+
+    color:brown;
+    background-color: rgb(3, 93, 141);
+}
+/* This is an Class Selector*/
+.class-example {
+
+    color: blueviolet;
+}
+/* This is an Element Selector*/
+p{
+
+    color: blue;
+}
+
+/* This is an ID Selector*/
+#id-example {
+
+    color:yellow;
+}
+
+a[href] {
+
+    color: lavender;
+}
+
+[href] {
+
+    color: purple;
+
+}
+
+a[href="www.example2.com"] {
+
+    color: orange;
+}
+
+
+/* Grouping Selector */
+
+h1, h2, h3 {
+
+    font-size: 25px;
+    background-color: beige;
+
+}
+
+#heading1, #heading2, h3 {
+
+    color: cadetblue;
+}

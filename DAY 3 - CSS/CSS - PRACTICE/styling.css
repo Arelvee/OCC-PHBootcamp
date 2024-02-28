@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+
+.font-example {
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    font-style: italic;
+    color:fuchsia;
+    background-color: cyan;
+
+}
+
+
+.text-example {
+
+text-align: center;
+text-transform: uppercase;
+text-decoration: line-through;
+font-size: 20px;
+
+}
+
+#text-example {
+
+
+
+}
+

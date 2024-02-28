@@ -59,4 +59,18 @@ color: darkgreen;
 
 }
 
-:focus
+#heading2::first-letter {
+
+    color: blue;
+
+}
+
+h3::before {
+
+    content: "Placed before h3. ";
+}
+
+h3::after {
+
+    content: "Placed after h3. ";
+}

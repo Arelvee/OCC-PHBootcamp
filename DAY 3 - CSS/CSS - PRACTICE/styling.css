@@ -7,7 +7,7 @@
     font-weight: bold;
     font-family: "Kode Mono", monospace;
     font-style: italic;
-    color:fuchsia;
+    color: fuchsia;
     background-color: cyan;
 
 }
@@ -15,16 +15,85 @@
 
 .text-example {
 
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-size: 20px;
+
+}
+
+#spacing-example {
+
+    line-height: 1.5;
+    letter-spacing: 2px;
+    background-color: peachpuff;
+
+
+
+
+}
+
+
+/* text shadow
+x-coordinate
+y-ccordinate
+blur-radiuw
+color of the shadow0
+*/
+
+#shadow-example {
+
+    font-size: 20px;
+    text-indent: 10px;
+    text-shadow: 2px 4px 8px red;
+
+}
+
+.bg {
+background-color: aqua;
+background-image: url(assets/bear.png);
+background-position: center;
+background-size: cover;
+background-repeat: no repeat;
+background-attachment: scroll;
+
+/* background: bg-color || bg-image || bg-position || bg-size || bg-repeat */
+
+background: aquamarine url(assets/bear.png) center cover no repeat;
+
+background: rgb(10,141,140);
+background: linear-gradient(90deg, rgba(10,141,140,1) 0%, rgba(255,0,137,1) 100%, rgba(2,0,36,0.48735990978422616) 100%, rgba(14,107,246,1) 100%);
+
+
+margin: 10px 20px 30px 40px;
+}
+
+.box-model {
+background-color: coral;
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 15px;
+margin-right: 10px;
+
+margin: 15px 10px 20px 25px;
+padding: 15px 10px 8px 4px;
+
+
+border: 3px dashed green;
+border-radius: 20px;
+
 text-align: center;
-text-transform: uppercase;
-text-decoration: line-through;
-font-size: 20px;
+
+height: 150px;
+width: 50px;
 
 }
 
-#text-example {
 
-
-
-}
-
+/*
+== MARGIN and PADDING ==
+    1 value = applied to all 4 sides
+    2 value = top and bottom side || right and left side
+    3 value = top || right and left side || bottom
+    4 values = top || right || bottom || left
+*/

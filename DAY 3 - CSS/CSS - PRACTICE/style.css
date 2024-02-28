@@ -51,3 +51,12 @@ h1, h2, h3 {
 
     color: cadetblue;
 }
+
+#heading1:hover {
+
+background: lightsalmon;
+color: darkgreen;
+
+}
+
+:focus
